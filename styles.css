@@ -1,3 +1,4 @@
+/* site wide css */
 :root
 {
     --background: #202024;
@@ -14,6 +15,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-weight: normal;
 }
 
 body 
@@ -23,6 +25,13 @@ body
     font-family: 'Oxygen Mono', monospace, Arial, Helvetica, sans-serif;
 }
 
+.sectionHeader
+{
+    font-size: 3em;
+    margin: 20px;
+    text-align: center;
+}
+/* navbar css */
 nav
 {
     display: flex;
@@ -53,7 +62,7 @@ ul
 {
     list-style-type: none;
 }
-
+/* home section css */
 #home
 {
     display: flex;
@@ -61,5 +70,82 @@ ul
     justify-content: center;
     width: 100%;
     height: 70vh;
-   background: url(-personalSite\1428482.jpg);
+    text-align: center;
+    border-bottom: 6px solid var(--blue);
 }
+#homeHeader
+{
+    display: flex;
+    flex-direction: column;
+}
+#homeTitle
+{
+    font-size: 3.5em;
+    margin: 20px;
+  
+}
+
+#homeSubTitle
+{
+    font-size: 2.5em;
+    margin-bottom: 40px;
+}
+
+.btn
+{
+    cursor: pointer;
+    background: var(--secondary-grey);
+    border: 2px solid var(--offWhite);
+    color: var(--offWhite);
+    padding: 0.5em;
+    font-size: 1em;
+    border-radius: 5px;
+    transition: 0.2s ease-in;
+    animation-duration: 1.6s;
+    text-align: center;
+    font-size: 1.3em;
+    text-decoration: none;
+}
+
+#homeButtons
+{
+    margin-bottom: 40px;
+}
+
+#homeIcons
+{
+    display: flex;
+    justify-content: space-around;
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+#emailSpan
+{
+    font-size: 1.2em;
+}
+
+/* project section css */
+#projects
+{
+    display: flex;
+    flex-direction: column;
+    border-bottom: 6px solid var(--blue);
+}
+
+/* TODO: Add projects, display using css grid */
+
+/*About me section*/
+#aboutMeSection
+{
+    display: flex;
+    flex-direction: column;
+    border-bottom: 6px solid var(--blue);
+}
+
+#aboutMeInfo
+{
+    font-size: 1.4em;
+    margin: 0px 40px 40px 40px;
+}
+

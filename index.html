@@ -18,12 +18,14 @@
         </ul>
     </nav>
     <div id="home">
-        <header>
-            <h1>Akeen Lewis</h1>
-            <h2>Computer Science Student</h2>
-            <a href="" id="projectResume">View Projects</a>
-            <a href="" id="resumeButton">View Resume</a>
-            <ul id="icons">
+        <header id="homeHeader">
+            <h1 id="homeTitle">Akeen Lewis</h1>
+            <h2 id="homeSubTitle">Computer Science Student</h2>
+            <div id="homeButtons">
+                <a href="" id="projectResume" class="btn">View Projects</a>
+                <a href="" id="resumeButton" class ="btn">View Resume</a>
+            </div>
+            <ul id="homeIcons">
                 <li>
                     <a href="" id="githubButton">github</a>
                 </li>
@@ -31,25 +33,25 @@
                     <a href="" id="linkedInButton">linkedin</a>
                 </li>
             </ul>
-            <span class="emailSpan">
+            <span id="emailSpan">
                 Email: 
                 <a href="mailto:akeenlewis1@knights.ucf.edu">akeenlewis1@gmail.com</a>
             </span>
         </header>
     </div>
     <div id="projects">
-        <h2>Projects</h2>
+        <h2 class ="sectionHeader">Projects</h2>
         <div id="projectsContainer">
         </div>
     </div>
-    <div id="aboutMeSections">
-        <h2>About Me</h2>
-        <p>Hi, my name is Akeen Lewis and I'm currently a computer science junior at the University of Central Florida. I've been coding since highschool and love the creative and
+    <div id="aboutMeSection">
+        <h2 class = "sectionHeader">About Me</h2>
+        <p id = "aboutMeInfo">Hi, my name is Akeen Lewis and I'm currently a computer science junior at the University of Central Florida. I've been coding since highschool and love the creative and
             problem solving aspects that come with programming and development. I look forward to continuing my learning and taking development up as a profession once I graduate in 2023.
         </p>
     </div>
     <div id="contactMeSections">
-        <h2>Contact Me</h2>
+        <h2 class ="sectionHeader">Contact Me</h2>
         <p>If you are interested in contacting me for work or contracting opportunities feel free to reach out to me at my school email or use the contact form below</p>
         <div id="formGroup">
             <label for="subjectEntry">Subject</label>
