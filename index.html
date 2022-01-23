@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+
 </head>
 <body>
     <nav>
@@ -27,10 +29,10 @@
             </div>
             <ul id="homeIcons">
                 <li>
-                    <a href="" id="githubButton">github</a>
+                    <a href="" id="githubButton" class="contactIcon"><i class="fab fa-github-alt"></i></a>
                 </li>
                 <li>
-                    <a href="" id="linkedInButton">linkedin</a>
+                    <a href="" id="linkedInButton" class="contactIcon"><i class="fab fa-linkedin"></i></a>
                 </li>
             </ul>
             <span id="emailSpan">
@@ -52,27 +54,27 @@
     </div>
     <div id="contactMeSections">
         <h2 class ="sectionHeader">Contact Me</h2>
-        <p>If you are interested in contacting me for work or contracting opportunities feel free to reach out to me at my school email or use the contact form below</p>
+        <p id="contactMePara">If you are interested in contacting me for work or contracting opportunities feel free to reach out to me at my school email or use the contact form below</p>
         <div id="formGroup">
             <label for="subjectEntry">Subject</label>
             <input type="subject" name="subjectEntry" id="subjectEntry" placeholder="Subject...">
             <label for="emailEntry">Email</label>
             <input type="email" name="emailEntry" id="emailEntry" placeholder="Email...">
             <label for="messageEntry">Message</label>
-            <input type="message" name="messageEntry" id="messageEntry" placeholder="Message...">
+            <textarea cols ="30" rows ="10" type="message" name="messageEntry" id="messageEntry" placeholder="Message..." cols ="30" rows ="10"></textarea>
         </div>
-        <button>Submit</button>
+        <button id="submitButton" class="btn">Submit</button>
     </div>
     <footer id ="footer">
-        <ul id="icons">
+        <ul id="homeIcons">
             <li>
-                <a href="" id="githubButton">github</a>
+                <a href="" id="githubButton" class="contactIcon"><i class="fab fa-github-alt"></i></a>
             </li>
             <li>
-                <a href="" id="linkedInButton">linkedin</a>
+                <a href="" id="linkedInButton" class="contactIcon"><i class="fab fa-linkedin"></i></a>
             </li>
         </ul>
-        <span class="emailSpan">
+        <span id="emailSpan">
             Email: 
             <a href="mailto:akeenlewis1@knights.ucf.edu">akeenlewis1@gmail.com</a>
         </span>
