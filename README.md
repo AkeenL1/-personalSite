@@ -2,4 +2,4 @@
 
 TODO:
 add js functionality for email
-fix navbar on mobile
+clean up fa icons and colors
