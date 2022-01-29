@@ -259,3 +259,9 @@ footer{
     flex-direction: column;
     border-bottom: 6px solid var(--blue);
 }
+
+#homeIcons
+{
+    display: flex;
+    justify-content: space-around;
+}
